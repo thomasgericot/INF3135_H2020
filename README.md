@@ -8,8 +8,8 @@
 - Examen #1 25% : 29 février 2020 14h durée 3h
 - Examen #2 25% : 25 avril 2020 14h durée 3h
 - Travail 1 10% :  
-- Travail 2 25% : 
-- Travail 3 25% :
+- Travail 2 20% : 
+- Travail 3 20% :
 
 ##### Directives aux examens
  + Avoir votre carte d'étudiant UQAM valide;
