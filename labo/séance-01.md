@@ -83,14 +83,14 @@ si les fichiers de configuration changent vous n'aurez rien à faire.
 
 :zap: Astuces :zap:
 
-Toujours dans le `.nanorc`. Vous pouvez aussi ajouter une ou les deux lignes suivantes:
+Toujours dans le `.nanorc`, vous pouvez ajouter les éléments suivants:
 ```
 set constantshow
 set mouse
 ```
-La première permet à Nano d'afficher en permanence le numéro de ligne du curseur. Très utile lorsqu'on utilise le déboggeur GDB.
+`set constantshow` permet à Nano d'afficher en permanence le numéro de ligne du curseur. Très utile lorsqu'on utilise le déboggeur GDB.
 
-La deuxième permet de cliquer sur le terminal avec la souris pour déplacer le curseur. 
+`set mouse` permet de cliquer sur le terminal avec la souris pour déplacer le curseur. 
 Attention, cela retire certaines possibilités de copier-coller.
 
 ## 3a - Commandes Linux/Unix - Préparation et stratégies
