@@ -58,7 +58,7 @@ Chaque fichier est nommé ainsi: ```<langage>.nanorc```
 Il y a deux méthodes pour ajouter un langage:
 
 1- Copier le contenu des fichiers de configuration.
-Il suffit de lancer cette commande (pour le langage c)
+Il suffit de lancer cette commande (pour le langage c).  
 Assurez-vous de bien comprendre ce que ça fait.
 ```shell
 $ cd ; cat /usr/share/nano/c.nanorc >> .nanorc
