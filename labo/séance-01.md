@@ -42,19 +42,48 @@ travailler efficacement sous Vim pendant tout le cours.
 
 ## 2b - GNU nano (requis pour ceux qui n'utilisent pas Vim)
 
-Voici quelques commandes pour configurer votre environnement de développement.
-Il est aussi possible de le configurer pour faire du Java.  Cet exemple est pour
-le langage C. Mais regarder les fichiers disponibles pour les autres langages.
+Il est possible de configurer Nano pour avoir la coloration syntaxique.
+Nano utilise un fichier ```.nanorc``` situé dans votre répertoire ```$HOME```.
+Ce fichier est lu à chaque démarrage de nano.
+Il suffit de modifier (ou de créer) ce fichier pour modifier le comportement de Nano.
+
+Pour obtenir la liste des langages supportés pour la coloration syntaxique il suffit d'aller voir dans le répertoire de nano:
 
 ```shell
 $ ls -lahs /usr/share/nano
-$ cd ; cat /usr/share/nano/c.nanorc >> .nanorc
-$ pwd
 ```
 
-Lister dans votre terminal les autres fichiers de configuration qui sont disponible dans `/usr/share/nano/`
+Chaque fichier est nommé ainsi: ```<langage>.nanorc```
 
-Ajouter `sh.nanorc` à votre `.nanorc`
+Il y a deux méthodes pour ajouter un langage:
+
+1- Copier le contenu des fichiers de configuration.
+Il suffit de lancer cette commande (pour le langage c)
+Assurez-vous de bien comprendre ce que ça fait.
+```shell
+$ cd ; cat /usr/share/nano/c.nanorc >> .nanorc
+```
+
+2- Utiliser ```include``` dans votre fichier de configuration ```.nanorc```.
+Ouvrez avec Nano le fichier ```.nanorc``` situé dans votre répertoire ```$HOME```
+Insérez cette ligne:
+```
+include "usr/share/nano/c.nanorc"
+```
+Note: Personnellement, je préfère cette méthode. Elle rend votre fichier .nanorc plus facile à maintenir et
+si les fichiers de configuration changent vous n'aurez rien à faire. 
+
+Deux autres petits trucs:
+
+Vous pouvez aussi ajouter une ou les deux lignes suivantes:
+```
+set constantshow
+set mouse
+```
+La première permet à Nano d'afficher en permanence le numéro de ligne du curseur. Très utile lorsqu'on utilise le déboggeur GDB.
+
+La deuxième permet de cliquer sur le terminal avec la souris pour déplacer le curseur. 
+Attention, cela retire certaines possibilités de copier-coller.
 
 ## 3a - Commandes Linux/Unix - Préparation et stratégies
 
