@@ -81,9 +81,9 @@ $ cd; echo "include \"usr/share/nano/c.nanorc\"" >> .nanorc
 Note: Personnellement, je préfère les include. Elle rend votre fichier .nanorc plus facile à lire et
 si les fichiers de configuration changent vous n'aurez rien à faire. 
 
-Deux autres petits trucs:
+:zap: Astuces :zap:
 
-Vous pouvez aussi ajouter une ou les deux lignes suivantes:
+Toujours dans le `.nanorc`. Vous pouvez aussi ajouter une ou les deux lignes suivantes:
 ```
 set constantshow
 set mouse
