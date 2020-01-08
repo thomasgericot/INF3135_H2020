@@ -40,6 +40,8 @@ greffon [Vim-plug](https://github.com/junegunn/vim-plug). Ces étapes sont un
 peu longues, mais elles vous donneront une configuration minimale pour
 travailler efficacement sous Vim pendant tout le cours.
 
+
+
 ## 2b - GNU nano (requis pour ceux qui n'utilisent pas Vim)
 
 Il est possible de configurer Nano pour avoir la coloration syntaxique.
@@ -65,12 +67,18 @@ $ cd ; cat /usr/share/nano/c.nanorc >> .nanorc
 ```
 
 2- Utiliser ```include``` dans votre fichier de configuration ```.nanorc```.
+a) Manuellement:
 Ouvrez avec Nano le fichier ```.nanorc``` situé dans votre répertoire ```$HOME```
 Insérez cette ligne:
 ```
 include "usr/share/nano/c.nanorc"
 ```
-Note: Personnellement, je préfère cette méthode. Elle rend votre fichier .nanorc plus facile à maintenir et
+b) OU en une ligne de commande: 
+```shell
+$ cd; echo "include \"usr/share/nano/c.nanorc\"" >> .nanorc
+```
+
+Note: Personnellement, je préfère les include. Elle rend votre fichier .nanorc plus facile à lire et
 si les fichiers de configuration changent vous n'aurez rien à faire. 
 
 Deux autres petits trucs:
@@ -111,7 +119,7 @@ pour changer de répertoire, essayez ceci :
 + Exécuter le fichier test.sh
 + Dans un fichier markdown nommé `output.md` capturez le résultat de l'exécution de `test.sh`
   - le résultat doit-être dans un bloc de code;
-+ Copier output.md dans `README.md`
++ Copier le fichier nommé `output.md` vers `README.md`
 + Effacer le fichier `output.md`
 + Quelle commande simple aurait pue être utilisée au lieu des deux dernières ?
 
