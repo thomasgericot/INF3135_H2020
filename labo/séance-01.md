@@ -66,7 +66,7 @@ Assurez-vous de bien comprendre ce que ça fait.
 $ cd ; cat /usr/share/nano/c.nanorc >> .nanorc
 ```
 
-2- Utiliser ```include``` dans votre fichier de configuration ```.nanorc```.
+2- Utiliser ```include``` dans votre fichier de configuration ```.nanorc```.  
 a) Manuellement:
 Ouvrez avec Nano le fichier ```.nanorc``` situé dans votre répertoire ```$HOME```
 Insérez cette ligne:
