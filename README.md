@@ -5,9 +5,9 @@
 ### Matériel du cours INF3135 édition Hiver 2020
 
 ### Dates importantes:
-- Examen #1 25% : 29 février 2020 14h durée 3h
-- Examen #2 25% : 25 avril 2020 14h durée 3h
-- Travail 1 10% :  
+- Examen #1 25% : 29 février 2020 14h ET durée 3h
+- Examen #2 25% : 25 avril 2020 14h ET durée 3h
+- Travail 1 10% : 8 février 2020 22h59 ET (heure du Québec,  ET = Eastern Time)
 - Travail 2 20% : 
 - Travail 3 20% :
 
