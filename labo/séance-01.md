@@ -119,7 +119,7 @@ pour changer de répertoire, essayez ceci :
 + Exécuter le fichier test.sh
 + Dans un fichier markdown nommé `output.md` capturez le résultat de l'exécution de `test.sh`
   - le résultat doit-être dans un bloc de code;
-+ Copier le fichier nommé `output.md` vers `README.md`
++ Copier le fichier nommé `output.md` vers `sortie.md`
 + Effacer le fichier `output.md`
 + Quelle commande simple aurait pue être utilisée au lieu des deux dernières ?
 
@@ -136,7 +136,7 @@ exécuter.
 
 ## 4 - Création et édition d'un fichier Markdown
 
-Dans le même répertoire que le fichier `hello.c` que vous avez conçu à
+Dans le même répertoire que le fichier `sortie.md` que vous avez conçu à
 l'exercice précédent, créez un fichier nommé `README.md` qui décrit brièvement
 votre projet. Indiquez minimalement le titre du projet, l'auteur du projet et
 une ou deux phrases qui décrivent ce qu'il fait, ainsi qu'une section qui
