@@ -71,11 +71,11 @@ a) Manuellement:
 Ouvrez avec Nano le fichier ```.nanorc``` situé dans votre répertoire ```$HOME```
 Insérez cette ligne:
 ```
-include "usr/share/nano/c.nanorc"
+include "/usr/share/nano/c.nanorc"
 ```
 b) OU en une ligne de commande: 
 ```shell
-$ cd; echo "include \"usr/share/nano/c.nanorc\"" >> .nanorc
+$ cd; echo "include \"/usr/share/nano/c.nanorc\"" >> .nanorc
 ```
 
 Note: Personnellement, je préfère les include. Elle rend votre fichier .nanorc plus facile à lire et
