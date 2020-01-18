@@ -89,8 +89,8 @@ $ ./tp1
   son état lors de la récupération initiale;
 
 - Lorsqu'on entre `make lib`, le téléchargement du fichier 
-  https://www.github.com/guyfrancoeur/INF3135_H2020/tp1/tp1.zip se fait
-  de façon automatique dans un répertoire (./data). Par la suite, la décompression
+  https://github.com/guyfrancoeur/INF3135_H2020/raw/master/tp/tp1.zip
+  se fait de façon automatique dans un répertoire (./data). Par la suite, la décompression
   est nécessaire;
 
 - Lorsqu'on entre `make test` le programme tp1 s'exécutera.
