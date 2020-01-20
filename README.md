@@ -29,7 +29,7 @@
 - Chapitre 2 base du langage C
 - Chapitre 3 compilation et automatisation
 - Chapitre 4 langage C
-- Chapitre 5 entrés et sortie
+- Chapitre 5 entrées et sorties
 - Chapitre 6 allocation dynamique et structure de données
 - Chapitre 7 maintenance et modules
 - Chapitre 8 scripts (bash)
@@ -61,7 +61,7 @@ Guy Francoeur
 
 #### Référence: 
 
-Ce cours est basé sur les travaux d'Alexandre Blondin Massé, Professeur, que je rermercie pour sa générosité et sa collaboration.
+Ce cours est basé sur les travaux d'Alexandre Blondin Massé, Professeur, que je remercie pour sa générosité et sa collaboration.
 
 + [standard C 2011 ISO/IEC 9899:201x](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf)
 + [TIOBE Index (les langages de programmation)](https://www.tiobe.com/tiobe-index/ "Usage des langages de programmation")
@@ -77,4 +77,4 @@ Ce cours est basé sur les travaux d'Alexandre Blondin Massé, Professeur, que j
 
 ----
 
-##### Auteur Guy Francoeur
+##### Auteur Guy Francoeur édition H2020
