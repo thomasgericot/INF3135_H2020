@@ -286,9 +286,14 @@ $ git checkout -- README.md
     - `git show` pour visualiser le "contenu" d'un *commit*;
     - `git remote` pour lister tous les dépôts distants. Si vous êtes synchronisés avec GitLab, vous devriez voir apparaître seulement`origin`;
     - `git remote -v` donne la liste des dépôts distants avec plus d'informations (notamment l'URL où il se trouve).
-    
-### FIN.    
----
 
+Questions :
+ + Q1. Quel avantage permet le git commit -a ?
+ + Q2. Que fait la commande git mv ?
+ + Q3. Que fait la commande git branch ?
+ + Q4. Que fait la commande git checkout concrètement ?
+
+### FIN.
+---
 ##### Auteur Guy Francoeur, version H2020
 ###### Basé sur le matérial d'Alexandre Blondin Massé, Professeur
