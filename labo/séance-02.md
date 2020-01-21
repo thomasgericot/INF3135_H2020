@@ -218,7 +218,7 @@ modifier le dernier *commit* pour y ajouter les modifications:
 
 ```shell
 $ mv LICENCE.md LICENSE.md
-$ git add LICENCE.md # on confirme la suppression du fichier erroné
+$ git rm LICENCE.md # on confirme la suppression du fichier erroné
 $ git add LICENSE.md # on versionne le nouveau fichier
 $ git commit --amend
 ```
