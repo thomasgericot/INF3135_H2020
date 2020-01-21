@@ -288,10 +288,11 @@ $ git checkout -- README.md
     - `git remote -v` donne la liste des dépôts distants avec plus d'informations (notamment l'URL où il se trouve).
 
 Questions :
- + Q1. Quel avantage permet le git commit -a ?
- + Q2. Que fait la commande git mv ?
- + Q3. Que fait la commande git branch ?
- + Q4. Que fait la commande git checkout concrètement ?
+ + Q1. Quel avantage permet la commande `git commit -a` ?
+ + Q2. Que fait la commande `git mv` ?
+ + Q3. Que fait la commande `git branch` ?
+ + Q4. Que fait la commande `git checkout` concrètement ?
+ + Q5. Quelle commande permet de m'aider lorsque je pers la mémoire et m'aide à la retrouver ?
 
 ### FIN.
 ---
