@@ -71,8 +71,8 @@ $ cd seance-02/
 
 Questions :
  - Q1. Que retrouvez-vous dans le fichier `hello.o`?
- - Q2. A quoi correspond les deux étapes de compilation vu ci-haut ?
- - Q3. Quel est loption pour compiler avec les intruction de dédugage ? (mode `debug`)
+ - Q2. A quoi correspondent les deux étapes de compilation vu ci-haut ?
+ - Q3. Quel est l'option pour compiler avec les instructions de débogage ? (mode `debug`)
  - Q4. Est-ce que le contenu du fichier `.o` est lisible ?
 
 ## 2 - Makefile pour automatiser (la compilation...)
@@ -83,8 +83,8 @@ Questions :
 - Versionnez l'état actuel de votre projet avec Git.
 
 Questions :
- - Q1. Votre `Makefile` fonctionne-t'il, et quelle commande le prouve ?
- - Q2. Est-ce que le format (structure) du fichier est importante ?
+ - Q1. Votre `Makefile` fonctionne-t-il, et quelle commande le prouve ?
+ - Q2. Est-ce que le format (la structure) du fichier est important ?
  - Q3. Puis-je changer le nom du fichier Makefile ?
  - Q4. Quelle est la commande pour créer l'exécutable ?
  - Q5. Quelle est la commande pour supprimer les fichiers ?
@@ -297,4 +297,4 @@ Questions :
 ### FIN.
 ---
 ##### Auteur Guy Francoeur, version H2020
-###### Basé sur le matérial d'Alexandre Blondin Massé, Professeur
+###### Basé sur le matériel d'Alexandre Blondin Massé, Professeur
