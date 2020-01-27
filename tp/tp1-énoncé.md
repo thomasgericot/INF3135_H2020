@@ -72,6 +72,8 @@ $ ./tp1
   + 0.3
 - le MCAS est désactivé si l'angle du stabilisateur horizontal est en dehors de 
   + -1.9 et 1.9
+> > - la tolérance entre les capteurs doit être inférieur ou égale à
+> >  + 0.25 
  
  **NOTE les valeurs sont inclusives.**
 
