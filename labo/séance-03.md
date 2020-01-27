@@ -64,6 +64,9 @@ Plus précisément, vous devez respecter les contraintes suivantes:
 - Le pays doit occuper exactement 4 colonnes aussi (il faut couper sinon);
 - La population doit être alignée à droite.
 
+Q1. De quelle manière allez-vous procéder? Vous allez commencer par quoi?  
+Q2. Comment pourrait-on s'y prendre pour valider rapidement que la sortie de votre programme est exacte?
+
 ## 2 - Fouille dans un tableau
 
 Écrivez une fonction C dont la signature est
@@ -130,7 +133,7 @@ Votre fonction retourne
 + Q5. Vous devez créer un script `bash` nommé `creer_depot.sh` qui accepte le nom nouveau 
   projet comme paramètre.  Le même paramètre sera utilisé comme nom de `répertoire` pour héberger
   votre dépôt local.  Le script doit créer le nouveau répertoire  dans votre `$HOME`.
-  Le nouveau projet sera créé dans votre gestionnaire de source préféré entre GitLab ou GitHub.
+  Le nouveau projet sera créé dans GitHub.
   `
  
 ### FIN.
