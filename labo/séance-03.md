@@ -81,7 +81,7 @@ Votre fonction retourne
  + 0 si l'élément n'est pas présent;
  + l'indice dans le tableau si l'élément est présent;
  
- Q1. Que se passe-t-il si l'élément se trouve à l'index zéro ?
+ Q1. Que se passe-t-il si l'élément se trouve à l'index zéro ?  
  Q2. Que peut-on changer pour éviter ce problème ?
 
 ## 3 - Commandes d'une ligne (Linux)
