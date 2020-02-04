@@ -67,8 +67,9 @@ $ ./tp1
 
 > > Définition :
 > > + ésotérique : Se dit d'un mode d'expression, d'une œuvre qui n'est compréhensible que des initiés;
+> >
 > > Synonyme :
-    + mystérieux : Qui est incompréhensible ou inexplicable;
+> > + mystérieux : Qui est incompréhensible ou inexplicable;
 
 Source : Larousse FR
 
