@@ -4,19 +4,24 @@
   de programme existant, la production de tests avec cUnit et la méthode TDD (Test Driven Development).
 
   De plus, vos sources seront maintenues dans un gestionnaire de version/source de type git.
+  
+  La compréhension et la prise de décision sont aussi des objectifs à atteindre durant la mise en oeuvre
+  , la réalisation, de vos travaux.
 
 ## Sujet
 
-Chaque session nous avons un sujet unique que nous traînons pendant les 15 semaines.  Cette fois encore je continue
-avec cette bonne habitude.  L'avantage est que nous n'avons pas à réapprendre des sujets différents pour chaque travail
-pratique.  Ainsi nous pouvons vraiment concentrer l'effort sur ce qui est important, c'est-à-dire la construction et la 
-maintenance de logiciels.  Pour nous c'est avec le langage C.  Un langage de programmation important qui produit des
-logiciels dits performants, mais il n'en serait rien sans des programmeurs qui savent ce qu'ils font.
+Chaque session nous avons un sujet unique que nous traînons pendant les 15 semaines.  Cette fois encore,
+je continue avec cette bonne habitude.  L'avantage est que nous n'avons pas à apprendre des sujets différents
+pour chaque travail pratique.  Ainsi nous pouvons vraiment concentrer l'effort sur ce qui est important, 
+c'est-à-dire la construction et la maintenance de logiciels.  Pour nous c'est avec le langage C.  Un langage
+de programmation important qui produit des logiciels dits performants, mais il n'en serait rien sans des
+programmeurs qui savent ce qu'ils font.
 
-MCAS est un logiciel qui a été installé sur des avions. Le Boeing 737 MAX 8 est l'avion qui utilise ce système.  Il existe
-des problèmes avec ce système.  Nous allons tenter ensemble de réaliser des programmes qui sont similaires et qui
-traitent des problèmes rencontrés.  ICI Radio-Canada a produit un bijou de reportage qui traite de ce sujet.  Je vous
-invite à regarder et comprendre sans assumer de faits le vidéo de l'émission découverte qui suit. Bonne écoute.
+MCAS est un logiciel qui a été installé sur des avions. Le Boeing 737 MAX 8 est l'avion qui utilise ce système.
+Il existe des problèmes avec ce système.  Nous allons tenter ensemble de réaliser des programmes qui sont
+similaires et qui traitent des problèmes rencontrés.  ICI Radio-Canada a produit un bijou de reportage qui
+traite de ce sujet.  Je vous invite à regarder et comprendre sans assumer de faits le vidéo de l'émission
+découverte qui suit. Bonne écoute.
 
 [Video BOEING 737 MAX 8 : DES RÉVÉLATIONS TROUBLANTES :copyright: ICI Radio-Canada (Découverte)](https://ici.radio-canada.ca/tele/decouverte/site/segments/reportage/141372/boeing-max-ecrasement)
 
@@ -35,8 +40,9 @@ invite à regarder et comprendre sans assumer de faits le vidéo de l'émission 
    + objet : `flop.o`;
    + entête : `flop.h`.
   
-  Le rôle du programme `tp1.c` et de son exécutable est de tester et afficher les noms des tests (fonctions)
-  qui échouent et qui passent. Ainsi, il sera possible d'affirmer sans doute qu’elles sont les fonctions utilisables (fiables).
+  Le rôle du programme `tp1.c` et de son exécutable est de tester et afficher les noms des tests
+  (fonctions) qui échouent et qui passent. Ainsi, il sera possible d'affirmer sans doute qu’elles
+  sont les fonctions utilisables (fiables).
   
   Il y aura **une** fonction de test (cUnit) pour chacune des fonctions `contenues/listées/à tester` dans flop.h.
   
@@ -56,7 +62,15 @@ $ ./tp1
 - `cUnit` est la librairie non standard (car elle ne fait pas du langage C de base) utilisée pour ce travail;
 - Les questions devront toutes être posées dans le forum de discussion GitHub section *Issues*;
 - Une demande de solutions (réponse), comment faire ceci ou cela sera considéré comme un plagiat;
-- Une branche nommée `testunitaire` sera produite et votre travail sera livré dans cette branche.
+- Une branche nommée `testunitaire` sera produite et votre travail sera livré dans cette branche;
+> > - La simplicité de vos livrables est exigée.  Aucun code ésotérique ne sera accepté.
+
+> > Définition :
+> > + ésotérique : Se dit d'un mode d'expression, d'une œuvre qui n'est compréhensible que des initiés;
+> > Synonyme :
+    + mystérieux : Qui est incompréhensible ou inexplicable;
+
+Source : Larousse FR
 
 #### Critère d'évaluation pour les fonctions
 - un angle d'incidence est valide pour les intervalles inclusifs suivants :
