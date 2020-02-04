@@ -188,7 +188,7 @@ pour traquer certaines erreurs et les mauvaises pratiques de programmation.
   `guyfrancoeur` comme collaborateur. Ceci permettra récupérer et possiblement de déposer qqc commentaires
   (fichiers) dans votre projet.
 
-  Votre projet devrait minimalement contenir les fichiers de type `Unix/Linux` suivants :
+  Votre projet devrait minimalement contenir, à la racine du dépôt, les fichiers de type `Unix/Linux` et `ascii` suivants :
 
 - Un fichier `tp1.c` contenant le code source de votre projet, ainsi que votre fonction `main`;
 - Un fichier `README.md` avec le titre du projet, les auteurs, les exemples, etc;
